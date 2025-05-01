@@ -1,0 +1,95 @@
+/* Namespace khusus sekolah.html */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Header Sekolah */
+  .sk-navbar {
+    background-color: #34495e;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .sk-navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .sk-user-info {
+    font-size: 14px;
+  }
+  
+  /* Breadcrumb */
+  .sk-breadcrumb {
+    font-size: 14px;
+    color: #555;
+    margin: 20px 0 10px 0;
+  }
+  
+  .sk-breadcrumb a {
+    color: #2980b9;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  /* Judul Course */
+  .sk-course-title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  .sk-lecturer {
+    font-weight: 400;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  /* Materi */
+  .sk-topic {
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #2980b9;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 700px;
+  }
+  
+  .sk-topic h2 {
+    font-size: 18px;
+    color: #2980b9;
+    margin-bottom: 15px;
+  }
+  
+  .sk-topic ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .sk-topic li {
+    margin-bottom: 8px;
+    color: #2c3e50;
+  }
+  
+  .sk-topic p {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  a {
+    color: #2980b9; /* warna link normal */
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #2980b9; /* warna tetap sama setelah diklik */
+  }
+  
